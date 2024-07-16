@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftp.ideasystems.com.mx
-        username: desarrollo
+        username: desarrollo@ideasystems.com.mx
         password: ${{ secrets.ftp_password }}
         protocol: ftps
         port: 21
