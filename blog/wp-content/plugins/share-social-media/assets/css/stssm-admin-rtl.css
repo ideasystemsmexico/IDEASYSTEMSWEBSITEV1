@@ -1,0 +1,461 @@
+.ssm-fas,
+.ssm-fab {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-rendering: auto;
+}
+
+.ssm-fas {
+	font-family: 'SSM Font Awesome 6 Free';
+}
+
+.ssm-fab {
+	font-family: 'SSM Font Awesome 6 Brands';
+}
+
+.ssm-fas {
+	font-weight: 900;
+}
+
+.ssm-fab {
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'SSM Font Awesome 6 Free';
+	font-style: normal;
+	font-weight: 900;
+	font-display: block;
+	src: url("../webfonts/fa-solid-900.woff2?v=2") format("woff2"), url("../webfonts/fa-solid-900.ttf?v=2") format("truetype");
+}
+
+@font-face {
+	font-family: 'SSM Font Awesome 6 Brands';
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+	src: url("../webfonts/fa-brands-400.woff2?v=2") format("woff2"), url("../webfonts/fa-brands-400.ttf?v=2") format("truetype");
+}
+
+.ssm-fa-facebook-f:before {
+	content: "\f39e";
+}
+
+.ssm-fa-twitter:before {
+	content: "\f099";
+}
+
+.ssm-fa-linkedin:before {
+	content: "\f08c";
+}
+
+.ssm-fa-pinterest:before {
+	content: "\f0d2";
+}
+
+.ssm-fa-reddit:before {
+	content: "\f1a1";
+}
+
+.ssm-fa-tumblr:before {
+	content: "\f173";
+}
+
+.ssm-fa-x-twitter:before {
+	content: "\e61b";
+}
+
+.ssm-fa-blogger:before {
+	content: "\f37c";
+}
+
+.ssm-fa-evernote:before {
+	content: "\f839";
+}
+
+.ssm-fa-flipboard:before {
+	content: "\f44d";
+}
+
+.ssm-fa-get-pocket:before {
+	content: "\f265";
+}
+
+.ssm-fa-wordpress-simple:before {
+	content: "\f411";
+}
+
+.ssm-fa-line:before {
+	content: "\f3c0";
+}
+
+.ssm-fa-whatsapp:before {
+	content: "\f232";
+}
+
+.ssm-fa-envelope::before {
+	content: "\f0e0";
+}
+
+.stssm-social-icons {
+	padding: 0 !important;
+	list-style-type: none;
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.stssm-social-icons {
+	margin: 0 !important;
+}
+
+.stssm-social-icons li {
+	padding: 0 !important;
+	text-align: center;
+}
+
+.stssm-social-icons li {
+	display: inline-block;
+	margin-left: 4px;
+	margin-right: 0;
+}
+
+.stssm-social-icons li {
+	margin-top: 4px !important;
+	margin-bottom: 4px !important;
+}
+
+.stssm-social-icons .ssm-fab,
+.stssm-social-icons .ssm-fas {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.stssm-social-icons .ssm-fa-facebook-f {
+	background: #0866ff;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-twitter {
+	background: #1da1f2;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-linkedin {
+	background: #0077b5;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-pinterest {
+	background: #e60023;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-reddit {
+	background: #ff4500;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-tumblr {
+	background: #34526f;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-x-twitter {
+	background: #000000;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-blogger {
+	background: #fc4f08;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-evernote {
+	background: #00a82d;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-flipboard {
+	background: #f52828;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-get-pocket {
+	background: #ef4056;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-wordpress-simple {
+	background: #21759b;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-line {
+	background: #00b900;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-whatsapp {
+	background: #128C7e;
+	color: white;
+}
+
+.stssm-social-icons .ssm-fa-envelope {
+	background: #ebc262;
+	color: white;
+}
+
+.st-loading-container {
+	display: inline-block;
+	margin-right: .5rem;
+	margin-top: .2rem;
+}
+
+.st-alert-box,
+.st-alert-box-info {
+	margin-top: .8rem !important;
+}
+
+.stssm.wrap {
+	padding: 8px 13px;
+}
+
+.stssm.wrap .stssm-page-heading {
+	font-size: 23px;
+	font-weight: 400;
+	margin: 0 0 10px 0;
+	padding: 9px 0 4px 0;
+	line-height: 1.3;
+	color: #1d2327;
+}
+
+.st-text-danger {
+	margin-top: .2rem;
+	color: #dc3232;
+}
+
+.st-is-invalid {
+	border: 1px solid #dc3232;
+}
+
+.stssm {
+	word-break: break-word;
+}
+
+.stssm-section {
+	margin-right: .3rem;
+}
+
+#stssm-reset-plugin-form {
+	margin-top: 1rem;
+}
+
+/* Review */
+.stssm-review {
+	display: flex;
+}
+
+.stssm-review .stssm-review-us {
+	margin-top: 1.5rem;
+}
+
+.stssm-review .stssm-review-link {
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.stssm-review .stssm-review-link:focus {
+	outline: thin dotted;
+}
+
+.stssm-review .stssm-rate-us {
+	display: inline-block;
+	font-weight: 400;
+	font-size: .85rem;
+	margin-left: .3rem;
+	margin-bottom: .3rem;
+}
+
+.stssm-review .star-rating .star {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+}
+
+/* Pro */
+.stssm-header .stssm-heading {
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.notice,
+.stssm .st-alert-box {
+	flex-basis: 100%;
+	order: -1;
+}
+
+.stssm .stssm-header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.stssm .stssm-pro {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+	max-width: 700px;
+	margin-top: 14px;
+	margin-bottom: 5px;
+	padding: 14px 16px;
+	border-right: 3px solid #5478e4;
+	border-left: 3px solid #5478e4;
+	border-bottom: 1px solid #ebebeb;
+	background-color: #ffffff;
+	color: #3c434a;
+	box-shadow: -1px 2px 4px rgba(0, 0, 0, .1);
+	transition: .3s all;
+}
+
+.stssm .stssm-pro--bottom {
+	margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 800px) {
+	.stssm .stssm-pro {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 1225px) {
+	.stssm .stssm-pro {
+		margin-right: auto;
+	}
+
+	.stssm .stssm-pro--bottom {
+		margin-right: 0;
+	}
+}
+
+.stssm .stssm-pro:hover {
+	box-shadow: -1px 2px 8px rgba(0, 0, 0, .15);
+}
+
+.stssm-pro .stssm-pro-links {
+	font-size: 15px;
+	line-height: 1;
+}
+
+@media screen and (min-width: 800px) {
+	.stssm-pro .stssm-pro-links {
+		margin-top: 0;
+	}
+}
+
+.stssm-pro .stssm-pro-heading {
+	margin: 0 0 8px 12px;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #1d2327;
+}
+
+.stssm-pro .stssm-pro-light {
+	font-weight: 400;
+}
+
+.stssm-pro .stssm-pro-bold {
+	font-weight: 600;
+}
+
+.stssm-pro .stssm-pro-underline {
+	text-decoration: underline;
+	color: #d63638;
+}
+
+.stssm-pro .stssm-pro-link {
+	display: inline-block;
+	text-decoration: none;
+	padding: 9px 12px 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	background-color: #5478e4;
+	color: #ffffff;
+	border: 1px solid #4169e1;
+	border-radius: 6px;
+	transition: .15s all;
+}
+
+.stssm-pro .stssm-pro-link:hover {
+	border-color: #5478e4;
+	background: #5478e4;
+	color: #ffffff;
+	outline: 0;
+}
+
+.stssm-pro .stssm-pro-link:focus {
+	outline: thin dotted #ffffff;
+	box-shadow: 0 0 0 1px #ffffff, 0 0 0 2px #5478e4;
+}
+
+.stssm-pro .stssm-pro-link--alt:focus {
+	box-shadow: 0 0 0 1px #ffffff, 0 0 0 2px #9ea1a5;
+}
+
+.stssm-pro .stssm-pro-link--alt:hover:focus {
+	box-shadow: 0 0 0 1px #ffffff, 0 0 0 2px #5478e4;
+}
+
+.stssm-pro .stssm-pro-link--alt {
+	background-color: #ffffff;
+	color: #50565c;
+	border-color: #b4b9be;
+}
+
+.stssm-pro .stssm-pro-link--alt:hover {
+	border-color: #5478e4;
+	background: #5478e4;
+}
+
+.stssm-pro-check-list-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1rem 0 .5rem 0;
+	padding-right: 3px;
+}
+
+.stssm-pro-check-list {
+	font-size: 15px;
+	font-size: .9375rem;
+	line-height: 1.55;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 2rem;
+}
+
+.stssm-pro-check-list li {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.stssm-pro-check-list li::before {
+	content: '';
+	display: inline-block;
+	margin-left: 12px;
+	transform: rotate(45deg);
+	height: .63em;
+	width: .3em;
+	border-bottom: .25em solid #b4b9be;
+	border-right: .25em solid #b4b9be;
+}

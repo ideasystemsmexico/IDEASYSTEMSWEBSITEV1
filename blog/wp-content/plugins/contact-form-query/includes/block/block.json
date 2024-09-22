@@ -1,0 +1,14 @@
+{
+	"apiVersion": 3,
+	"name": "contact-form-query/contact-form",
+	"title": "Contact Form",
+	"category": "widgets",
+	"icon": "email",
+	"description": "Add a contact form and receive messages. Customize it in Contact > Settings, and view messages in Contact > Messages.",
+	"keywords": [ "contact", "form" ],
+	"textdomain": "contact-form-query",
+	"supports": {
+		"customClassName": false
+	},
+	"editorScript": "file:./block.js"
+}

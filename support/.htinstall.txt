@@ -1,0 +1,114 @@
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	<title>HESK setup script: 3.4.3</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link href="hesk_style.css?3.4.3" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="hesk_javascript.js?3.4.3"></script>
+	</head>
+	<body>
+
+	<div align="center">
+	<table border="0" cellspacing="0" cellpadding="5" class="enclosing">
+	<tr>
+	<td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		<td width="3"><img src="img/headerleftsm.jpg" width="3" height="25" alt="" /></td>
+		<td class="headersm">HESK setup script: 3.4.3</td>
+		<td width="3"><img src="img/headerrightsm.jpg" width="3" height="25" alt="" /></td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	<tr>
+	<td>
+
+        <div class="main__content notice-flash ">
+        <div class="notification orange">
+            <b>Important:</b> <a href="../docs/index.html">Read installation guide</a> before using this setup script!        </div>
+    </div>
+	
+    <div align="center">
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td width="7" height="7"><img src="img/roundcornerslt.jpg" width="7" height="7" alt="" /></td>
+		<td class="roundcornerstop"></td>
+		<td><img src="img/roundcornersrt.jpg" width="7" height="7" alt="" /></td>
+	</tr>
+	<tr>
+		<td class="roundcornersleft">&nbsp;</td>
+		<td>
+	
+	<br />
+	    <div class="main__content notice-flash ">
+        <div class="notification green">
+            <b>Success:</b> Congratulations, you have successfully completed HESK database setup!        </div>
+    </div>
+	
+    <h3>Next steps:</h3>
+
+    <ol>
+
+    <li><span style="color:#ff0000">Delete the <b>/install</b> folder from your server!</span><br />&nbsp;</li>
+
+    <li>Remember your login details:<br />
+
+<pre style="font-size: 1.17em">
+Username: <span style="color:red; font-weight:bold">Administrator</span>
+Password: <span style="color:red; font-weight:bold">wfWGqrUz</span>
+</pre>
+
+    <br />&nbsp;
+
+    </li>
+
+    <table>
+        <tr>
+            <td>
+                <form action="../admin/index.php" method="post">
+                <input type="hidden" name="a" value="do_login" />
+                <input type="hidden" name="remember_user" value="JUSTUSER" />
+                <input type="hidden" name="user" value="Administrator" />
+                <input type="hidden" name="pass" value="wfWGqrUz" />
+                <input type="hidden" name="goto" value="mail.php?a=read&amp;id=1" />
+                <input type="submit" value="Read HESK quick start guide" class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" />
+                </form>
+            </td>
+            <td> - or -</td>
+            <td>
+                <form action="../admin/index.php" method="post">
+                <input type="hidden" name="a" value="do_login" />
+                <input type="hidden" name="remember_user" value="JUSTUSER" />
+                <input type="hidden" name="user" value="Administrator" />
+                <input type="hidden" name="pass" value="wfWGqrUz" />
+                <input type="hidden" name="goto" value="admin_settings_general.php" />
+                <input type="submit" value="Skip directly to settings" class="orangebuttonsec" onmouseover="hesk_btn(this,'orangebuttonsecover');" onmouseout="hesk_btn(this,'orangebuttonsec');" />
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    </ol>
+
+    <p>&nbsp;</p>
+
+			</td>
+		<td class="roundcornersright">&nbsp;</td>
+	</tr>
+	<tr>
+		<td><img src="img/roundcornerslb.jpg" width="7" height="7" alt="" /></td>
+		<td class="roundcornersbottom"></td>
+		<td width="7" height="7"><img src="img/roundcornersrb.jpg" width="7" height="7" alt="" /></td>
+	</tr>
+	</table>
+    </div>
+
+	<p style="text-align:center"><span class="smaller">&nbsp;<br />Powered by <a href="https://www.hesk.com" class="smaller" title="Free PHP Help Desk Software">Help Desk Software</a> <b>HESK</b>, in partnership with <a href="https://www.sysaid.com/?utm_source=Hesk&utm_medium=cpc&utm_campaign=HeskProduct_To_HP">SysAid Technologies</a></span></p>
+	</td>
+	</tr>
+	</table>
+	</div>
+	</body>
+	</html>
+	

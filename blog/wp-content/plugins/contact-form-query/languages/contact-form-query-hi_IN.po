@@ -1,0 +1,781 @@
+# Copyright (C) 2019 ScriptsTown
+# This file is distributed under the same license as the Contact Form Query plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form Query 1.8.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/contact-form-"
+"query\n"
+"POT-Creation-Date: 2024-06-26T07:12:15+00:00\n"
+"PO-Revision-Date: 2024-06-26 12:42+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Domain: contact-form-query\n"
+
+#. Plugin Name of the plugin
+#: admin/inc/class-stcfq-admin-menu.php:11 admin/inc/setting/index.php:16
+msgid "Contact Form Query"
+msgstr "संपर्क फ़ॉर्म क्वेरी"
+
+#. Plugin URI of the plugin
+msgid "https://scriptstown.com/wordpress-plugins/contact-form-query/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Add a contact form and receive new message notifications directly to your "
+"WordPress admin and to your email. Search and filter messages."
+msgstr ""
+
+#. Author of the plugin
+msgid "ScriptsTown"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://scriptstown.com/"
+msgstr ""
+
+#: admin/inc/class-stcfq-admin-menu.php:12
+msgid "Contact"
+msgstr ""
+
+#: admin/inc/class-stcfq-admin-menu.php:21
+msgid "Messages"
+msgstr "संदेश"
+
+#: admin/inc/class-stcfq-admin-menu.php:24 admin/inc/class-stcfq-setting.php:7
+msgid "Settings"
+msgstr "सेटिंग"
+
+#: admin/inc/class-stcfq-message.php:43 admin/inc/class-stcfq-message.php:162
+msgid "Message not found."
+msgstr ""
+
+#: admin/inc/class-stcfq-message.php:58
+msgid "Message deleted successfully."
+msgstr ""
+
+#: admin/inc/class-stcfq-message.php:97 admin/inc/class-stcfq-message.php:129
+msgid "Messages not found."
+msgstr ""
+
+#: admin/inc/class-stcfq-message.php:119
+msgid "Messages deleted successfully."
+msgstr ""
+
+#: admin/inc/class-stcfq-message.php:140
+msgid "Bulk action is not valid."
+msgstr ""
+
+#: admin/inc/class-stcfq-message.php:186
+msgid "Message status updated."
+msgstr ""
+
+#: admin/inc/class-stcfq-message.php:209
+msgid "Contact Form Latest Messages"
+msgstr ""
+
+#. translators: %s: Settings page link.
+#: admin/inc/class-stcfq-setting.php:23
+msgid ""
+"To get started with Contact Form Query, visit our <a href=\"%s\" "
+"target=\"_blank\">settings page</a>."
+msgstr ""
+
+#: admin/inc/class-stcfq-setting.php:37
+#, fuzzy
+#| msgid "Contact Form Query"
+msgid "Contact Form Query Settings"
+msgstr "संपर्क फ़ॉर्म क्वेरी"
+
+#: admin/inc/class-stcfq-setting.php:88 includes/class-stcfq-helper.php:17
+msgid "Your Name"
+msgstr ""
+
+#: admin/inc/class-stcfq-setting.php:91 includes/class-stcfq-helper.php:25
+msgid "Your Email"
+msgstr ""
+
+#: admin/inc/class-stcfq-setting.php:94 admin/inc/message/filter.php:19
+#: admin/inc/message/filter.php:47 admin/inc/message/index.php:38
+#: admin/inc/message/load.php:45 admin/inc/message/view.php:32
+#: includes/class-stcfq-helper.php:33
+msgid "Subject"
+msgstr "विषय"
+
+#: admin/inc/class-stcfq-setting.php:97 admin/inc/message/filter.php:28
+#: admin/inc/message/filter.php:50 admin/inc/message/index.php:39
+#: admin/inc/message/load.php:48 admin/inc/message/view.php:25
+#: admin/inc/message/view.php:36 includes/class-stcfq-helper.php:41
+msgid "Message"
+msgstr "संदेश"
+
+#: admin/inc/class-stcfq-setting.php:103
+msgid "The fields are invalid or not supported."
+msgstr ""
+
+#: admin/inc/class-stcfq-setting.php:109
+msgid "Please enable at least one field."
+msgstr ""
+
+#: admin/inc/class-stcfq-setting.php:157 admin/inc/class-stcfq-setting.php:201
+#: admin/inc/class-stcfq-setting.php:253 admin/inc/class-stcfq-setting.php:324
+#: admin/inc/class-stcfq-setting.php:343
+msgid "Setting saved."
+msgstr ""
+
+#: admin/inc/class-stcfq-setting.php:285 admin/inc/class-stcfq-setting.php:291
+#: public/inc/class-stcfq-form.php:118
+msgid "Please provide a valid email."
+msgstr ""
+
+#: admin/inc/message/filter.php:5
+msgid "Search & Filter Messages"
+msgstr ""
+
+#: admin/inc/message/filter.php:22 admin/inc/message/filter.php:48
+#: admin/inc/message/index.php:40 admin/inc/message/load.php:51
+#: admin/inc/message/view.php:40
+msgid "Name"
+msgstr ""
+
+#: admin/inc/message/filter.php:25 admin/inc/message/filter.php:49
+#: admin/inc/message/index.php:41 admin/inc/message/load.php:54
+#: admin/inc/message/view.php:44 admin/inc/setting/index.php:10
+msgid "Email"
+msgstr ""
+
+#: admin/inc/message/filter.php:31 admin/inc/message/filter.php:51
+msgid "Answered (Y or N)"
+msgstr ""
+
+#: admin/inc/message/filter.php:34 admin/inc/message/filter.php:52
+#: admin/inc/message/view.php:52 admin/inc/message/view.php:93
+msgid "Note"
+msgstr ""
+
+#: admin/inc/message/filter.php:64
+msgid "Add more"
+msgstr ""
+
+#: admin/inc/message/filter.php:65
+msgid "Apply filter"
+msgstr ""
+
+#: admin/inc/message/filter.php:67
+msgid "Reset filter"
+msgstr ""
+
+#: admin/inc/message/index.php:15
+msgid "Contact Form Messages"
+msgstr ""
+
+#: admin/inc/message/index.php:22
+msgid "Select Action"
+msgstr ""
+
+#: admin/inc/message/index.php:23
+msgid "Are you sure to delete selected messages?"
+msgstr ""
+
+#: admin/inc/message/index.php:23
+msgid "Please select atleast one message."
+msgstr ""
+
+#: admin/inc/message/index.php:23
+msgid "Delete Selected"
+msgstr ""
+
+#: admin/inc/message/index.php:25
+msgid "Please select a bulk action."
+msgstr ""
+
+#: admin/inc/message/index.php:26
+msgid "Bulk Apply"
+msgstr ""
+
+#: admin/inc/message/index.php:35
+msgid "Bulk Select"
+msgstr ""
+
+#: admin/inc/message/index.php:37 admin/inc/message/load.php:42
+msgid "S.No"
+msgstr ""
+
+#: admin/inc/message/index.php:42 admin/inc/message/load.php:57
+#: admin/inc/message/view.php:48
+msgid "Answered"
+msgstr ""
+
+#: admin/inc/message/index.php:43 admin/inc/message/view.php:56
+msgid "Timestamp"
+msgstr ""
+
+#: admin/inc/message/index.php:44 admin/inc/message/load.php:69
+msgid "Action"
+msgstr ""
+
+#: admin/inc/message/index.php:87
+msgid "No more messages."
+msgstr ""
+
+#: admin/inc/message/latest.php:42
+msgid "View all"
+msgstr ""
+
+#: admin/inc/message/latest.php:48
+msgid "No message found."
+msgstr ""
+
+#: admin/inc/message/load.php:39
+msgid "Select"
+msgstr ""
+
+#: admin/inc/message/load.php:60 admin/inc/message/view.php:49
+#: admin/inc/setting/tabs/email.php:167
+#: admin/inc/setting/tabs/form-fields.php:55
+#: admin/inc/setting/tabs/form-fields.php:81
+#: admin/inc/setting/tabs/form-fields.php:116
+msgid "Yes"
+msgstr ""
+
+#: admin/inc/message/load.php:62 admin/inc/message/view.php:49
+#: admin/inc/setting/tabs/email.php:172
+#: admin/inc/setting/tabs/form-fields.php:60
+#: admin/inc/setting/tabs/form-fields.php:86
+#: admin/inc/setting/tabs/form-fields.php:121
+msgid "No"
+msgstr ""
+
+#: admin/inc/message/load.php:66
+msgid "Date"
+msgstr ""
+
+#: admin/inc/message/load.php:73
+msgid "Are you sure to delete this message?"
+msgstr ""
+
+#: admin/inc/message/view.php:74 admin/inc/message/view.php:78
+#: admin/inc/message/view.php:82
+msgid "Is Answered?"
+msgstr ""
+
+#: admin/inc/message/view.php:85
+msgid "Mark this message as \"Answered\"."
+msgstr ""
+
+#: admin/inc/message/view.php:98
+msgid "Enter any extra note."
+msgstr ""
+
+#: admin/inc/message/view.php:106 admin/inc/setting/tabs/captcha.php:179
+#: admin/inc/setting/tabs/design.php:120 admin/inc/setting/tabs/email.php:192
+#: admin/inc/setting/tabs/form-fields.php:227
+#: admin/inc/setting/tabs/uninstall.php:39
+msgid "Save Changes"
+msgstr ""
+
+#: admin/inc/partials/pro.php:11
+msgid ""
+"<span class=\"stcfq-pro-light\">Get</span> <span class=\"stcfq-pro-"
+"bold\">Login Security <span class=\"stcfq-pro-bold stcfq-pro-"
+"underline\">Pro</span>"
+msgstr ""
+
+#: admin/inc/partials/pro.php:18
+msgid "Limit Login Attempts"
+msgstr ""
+
+#: admin/inc/partials/pro.php:19
+msgid "Login-Logout Redirect"
+msgstr ""
+
+#: admin/inc/partials/pro.php:20
+msgid "Role-Based Redirection"
+msgstr ""
+
+#: admin/inc/partials/pro.php:21
+msgid "Recent Login History"
+msgstr ""
+
+#: admin/inc/partials/pro.php:24
+msgid "Login History by Username"
+msgstr ""
+
+#: admin/inc/partials/pro.php:25
+msgid "WooCommerce Login / Register"
+msgstr ""
+
+#: admin/inc/partials/pro.php:26
+msgid "WooCommerce Checkout"
+msgstr ""
+
+#: admin/inc/partials/pro.php:27
+msgid "Advanced Security"
+msgstr ""
+
+#: admin/inc/partials/pro.php:32
+msgid "Buy Now"
+msgstr ""
+
+#: admin/inc/partials/pro.php:33
+msgid "Learn More"
+msgstr ""
+
+#: admin/inc/setting/index.php:7 admin/inc/setting/tabs/form-fields.php:32
+msgid "Form Fields"
+msgstr ""
+
+#: admin/inc/setting/index.php:8
+msgid "Design"
+msgstr ""
+
+#: admin/inc/setting/index.php:9 admin/inc/setting/tabs/captcha.php:32
+msgid "Captcha"
+msgstr ""
+
+#: admin/inc/setting/index.php:11
+msgid "Uninstall"
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:36
+msgid "Select Captcha"
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:58
+msgid "Site Key (reCAPTCHA v2)"
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:63
+msgid "Enter Google reCAPTCHA v2 Site Key."
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:64 admin/inc/setting/tabs/captcha.php:77
+#: admin/inc/setting/tabs/captcha.php:118
+#: admin/inc/setting/tabs/captcha.php:131
+msgid "Click Here"
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:71
+msgid "Secret Key (reCAPTCHA v2)"
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:76
+msgid "Enter Google reCAPTCHA v2 Secret Key."
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:84
+msgid "Theme (reCAPTCHA v2)"
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:89 admin/inc/setting/tabs/captcha.php:106
+#: admin/inc/setting/tabs/captcha.php:160
+msgid "Select Google reCAPTCHA Version 2 Theme."
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:112
+msgid "Site Key (Turnstile)"
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:117
+msgid "Enter Cloudflare Turnstile Site Key."
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:125
+msgid "Secret Key (Turnstile)"
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:130
+msgid "Enter Cloudflare Turnstile Secret Key."
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:138
+msgid "Theme (Turnstile)"
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:143
+msgid "Select Cloudflare Turnstile Theme."
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:166
+msgid "Blacklist Keywords"
+msgstr ""
+
+#: admin/inc/setting/tabs/captcha.php:171
+msgid ""
+"Enter one keyword per line. The keyword is case-sensitive and can have "
+"spaces in it. This would block the message by not saving the entry if any of "
+"the keywords match the name, subject, email, or message field. However, it "
+"would still show the success message to the user."
+msgstr ""
+
+#: admin/inc/setting/tabs/design.php:21
+msgid "Form Design"
+msgstr ""
+
+#: admin/inc/setting/tabs/design.php:25
+msgid "Select Form Design Layout"
+msgstr ""
+
+#: admin/inc/setting/tabs/design.php:47
+msgid "Success Background Color"
+msgstr ""
+
+#: admin/inc/setting/tabs/design.php:56
+msgid "Success Border Color"
+msgstr ""
+
+#: admin/inc/setting/tabs/design.php:65
+msgid "Success Font Color"
+msgstr ""
+
+#: admin/inc/setting/tabs/design.php:74
+msgid "Error Background Color"
+msgstr ""
+
+#: admin/inc/setting/tabs/design.php:83
+msgid "Error Border Color"
+msgstr ""
+
+#: admin/inc/setting/tabs/design.php:92
+msgid "Error Font Color"
+msgstr ""
+
+#: admin/inc/setting/tabs/design.php:101
+msgid "Validation Error Color"
+msgstr ""
+
+#: admin/inc/setting/tabs/design.php:110
+msgid "Validation Error Border Color"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:30
+msgid "How to Configure?"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:34
+msgid "Read Email Configuration Guide for Sending an Email"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:40
+msgid "Email Carrier"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:44
+msgid "Select Email Carrier"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:66 admin/inc/setting/tabs/email.php:90
+msgid "From Name"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:71 admin/inc/setting/tabs/email.php:95
+msgid "Enter From Name."
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:78
+msgid "From Email"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:83
+msgid "Enter From Email."
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:102
+msgid "Host"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:107
+msgid "Enter SMTP Host."
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:114
+msgid "Username"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:119
+msgid "Enter SMTP Username."
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:126
+msgid "Password"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:131
+msgid "Enter SMTP Password."
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:138
+msgid "Encryption"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:143
+msgid "Enter SMTP Encryption."
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:150
+msgid "Port"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:155
+msgid "Enter SMTP Port."
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:162
+msgid "Enable Email to Admin"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:179
+msgid "Receiver Admin Email"
+msgstr ""
+
+#: admin/inc/setting/tabs/email.php:184
+msgid "Enter Receiver Admin Email Address."
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:21
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:24
+msgid "Copied to clipboard."
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:24
+msgid "Copy"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:26
+msgid ""
+"Use above shortcode in any page or post to display the contact form. Also, "
+"you may use \"Contact Form\" block in the block editor to display the "
+"contact form."
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:35
+msgid ""
+"You can re-order the form fields by simply expanding the field and then "
+"draging it up or down."
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:42
+msgid "field"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:50
+#: admin/inc/setting/tabs/form-fields.php:111
+msgid "Enable"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:67
+msgid "Form Label"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:76
+msgid "Required Field"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:93
+#: admin/inc/setting/tabs/form-fields.php:137
+msgid "Additional Class (use space for multiple classes)"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:106
+msgid "Consent Field"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:128
+msgid "Field Text"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:146
+msgid "Validation Message (if unchecked)"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:157
+msgid "Submit Button"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:163
+msgid "Button Text"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:173
+msgid "Additional Class for Button Container (use space for multiple classes)"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:177
+msgid "Example: <span class=\"stcfq-text-light\">wp-block-buttons"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:192
+msgid "Additional Class for Button Element (use space for multiple classes)"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:196
+msgid ""
+"Example: <span class=\"stcfq-text-light\">wp-block-button wp-block-button-"
+"link wp-element-button</span>"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:214
+msgid "Success Message"
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:219
+msgid "Enter message to show when user submits the form successfully."
+msgstr ""
+
+#: admin/inc/setting/tabs/form-fields.php:235
+#: admin/inc/setting/tabs/form-fields.php:239
+msgid "Like this plugin? Leave a Review."
+msgstr ""
+
+#: admin/inc/setting/tabs/uninstall.php:15
+msgid ""
+"This will delete all the data when you delete the plugin using WordPress "
+"\"Plugins\" menu if you enable this setting."
+msgstr ""
+
+#: admin/inc/setting/tabs/uninstall.php:22
+msgid "Data Deletion"
+msgstr ""
+
+#: admin/inc/setting/tabs/uninstall.php:26
+#: admin/inc/setting/tabs/uninstall.php:30
+msgid "Delete all data on plugin's deletion"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:108
+msgid ""
+"I consent to having this website store my submitted information so they can "
+"respond to my inquiry."
+msgstr ""
+
+#: includes/class-stcfq-helper.php:112
+msgid "Please confirm."
+msgstr ""
+
+#: includes/class-stcfq-helper.php:130
+msgid "Send Your Message"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:144
+msgid ""
+"Thank you for contacting us. We will reply to your email as soon as possible."
+msgstr ""
+
+#: includes/class-stcfq-helper.php:156
+msgid "None"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:157
+msgid "Google reCAPTCHA Version 2"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:158
+msgid "Cloudflare Turnstile"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:164 includes/class-stcfq-helper.php:186
+msgid "Light"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:165 includes/class-stcfq-helper.php:187
+msgid "Dark"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:185
+msgid "Auto"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:223
+msgid "WP Mail"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:224
+msgid "SMTP"
+msgstr ""
+
+#. translators: 1: Sender name, 2: Sender email
+#: includes/class-stcfq-helper.php:381
+msgid "New message from %1$s - %2$s"
+msgstr ""
+
+#. translators: 1: Sender name, 2: Sender email, 3: Subject, 4: Message
+#: includes/class-stcfq-helper.php:391
+msgid ""
+"<strong>Sender Name:</strong> %1$s<br><strong>Sender Email:</strong> "
+"%2$s<br> <strong>Subject:</strong> %3$s<br> <strong>Message:</strong> "
+"%4$s<br>"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:417
+msgid "Default"
+msgstr ""
+
+#: includes/class-stcfq-helper.php:418
+msgid "Compact"
+msgstr "कॉम्पैक्ट"
+
+#. translators: %d: Number of unanswered messages
+#: public/inc/class-stcfq-admin-bar.php:16
+msgid "%d Message not answered."
+msgid_plural "%d Messages not answered"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/inc/class-stcfq-form.php:17
+msgid ""
+"Error occurred while sending your message. Please try again after some time."
+msgstr ""
+
+#: public/inc/class-stcfq-form.php:45 public/inc/class-stcfq-form.php:48
+#: public/inc/class-stcfq-form.php:69 public/inc/class-stcfq-form.php:72
+msgid "<strong>ERROR:</strong> Please confirm you are not a robot."
+msgstr ""
+
+#: public/inc/class-stcfq-form.php:107
+msgid "Please provide your name."
+msgstr ""
+
+#: public/inc/class-stcfq-form.php:116
+msgid "Please provide your email."
+msgstr ""
+
+#: public/inc/class-stcfq-form.php:127
+msgid "Please specify subject."
+msgstr ""
+
+#: public/inc/class-stcfq-form.php:136
+msgid "Please provide your message."
+msgstr ""
+
+#: includes/block/block.json
+#, fuzzy
+#| msgid "Contact Form Query"
+msgctxt "block title"
+msgid "Contact Form"
+msgstr "संपर्क फ़ॉर्म क्वेरी"
+
+#: includes/block/block.json
+msgctxt "block description"
+msgid ""
+"Add a contact form and receive messages. Customize it in Contact > Settings, "
+"and view messages in Contact > Messages."
+msgstr ""
+
+#: includes/block/block.json
+msgctxt "block keyword"
+msgid "contact"
+msgstr ""
+
+#: includes/block/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr ""

@@ -1,0 +1,56 @@
+#stcfq-container {
+	max-width: 525px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #f1f1f1;
+	color: #404040;
+	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .4);
+}
+
+.stcfq-container .stcfq-save-contact-form input:not([type=checkbox]),
+.stcfq-container .stcfq-save-contact-form textarea {
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #c4c4c4;
+	background-color: #fff;
+	transition: .1s all ease-out;
+}
+
+.stcfq-container .stcfq-save-contact-form input:not([type=checkbox]) {
+	min-height: 40px;
+}
+
+.stcfq-container .stcfq-save-contact-form input:not([type=checkbox]),
+.stcfq-container .stcfq-save-contact-form textarea {
+	padding: 10px;
+}
+
+.stcfq-container .stcfq-save-contact-form textarea {
+	min-height: 150px;
+	resize: vertical;
+}
+
+.stcfq-container .stcfq-save-contact-form label {
+	width: 100%;
+}
+
+.stcfq-container .stcfq-save-contact-form .stcfq-form-control-wrap {
+	display: block;
+	margin-top: 5px;
+}
+
+.stcfq-container .stcfq-save-contact-form .stcfq-save-contact-btn {
+	cursor: pointer;
+}
+
+.stcfq-container .stcfq-save-contact-form input:not([type=checkbox]):focus,
+.stcfq-container .stcfq-save-contact-form textarea:focus {
+	outline: none;
+}
+
+.stcfq-consent-field-label {
+	cursor: pointer;
+}

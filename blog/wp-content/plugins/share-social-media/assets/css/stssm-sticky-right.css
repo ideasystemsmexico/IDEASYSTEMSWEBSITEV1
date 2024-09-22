@@ -1,0 +1,18 @@
+.stssm-sticky-social-icons {
+	right: 0;
+}
+.stssm-hide li:not(.stssm-toggle-icons) {
+	transform: translateX(36px);
+}
+.stssm-social-icons .stssm-toggle-icons {
+	float: right;
+}
+.stssm-social-icons .stssm-toggle {
+	border-radius: 50% 0 0 50%;
+}
+.stssm-social-icons .stssm-toggle::before {
+	content: '\00BB';
+}
+.stssm-social-icons .stssm-more::before {
+	float: right;
+}

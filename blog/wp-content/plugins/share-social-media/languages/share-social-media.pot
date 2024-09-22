@@ -1,0 +1,337 @@
+# Copyright (C) 2024 ScriptsTown
+# This file is distributed under the same license as the Social Icons Sticky plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Icons Sticky 1.5.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/share-social-media\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-26T07:01:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: share-social-media\n"
+
+#. Plugin Name of the plugin
+#: admin/inc/class-stssm-admin-menu.php:10
+#: admin/inc/setting/index.php:14
+msgid "Social Icons Sticky"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://scriptstown.com/wordpress-plugins/share-social-media/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add social sharing icons to a post or page of your WordPress website and allow visitors to share your content on various social media sites."
+msgstr ""
+
+#. Author of the plugin
+msgid "ScriptsTown"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://scriptstown.com/"
+msgstr ""
+
+#: admin/inc/class-stssm-admin-menu.php:10
+msgid "Social Share"
+msgstr ""
+
+#: admin/inc/class-stssm-setting.php:7
+msgid "Settings"
+msgstr ""
+
+#. translators: %s: Settings page link.
+#: admin/inc/class-stssm-setting.php:23
+msgid "To get started with Social Icons Sticky, visit our <a href=\"%s\" target=\"_blank\">settings page</a>."
+msgstr ""
+
+#: admin/inc/class-stssm-setting.php:37
+msgid "Social Icons Sticky Settings"
+msgstr ""
+
+#: admin/inc/class-stssm-setting.php:106
+#: admin/inc/class-stssm-setting.php:166
+msgid "Settings saved."
+msgstr ""
+
+#: admin/inc/class-stssm-setting.php:188
+msgid "The plugin has been reset to its default state."
+msgstr ""
+
+#: admin/inc/partials/pro.php:11
+msgid "<span class=\"stssm-pro-light\">Get</span> <span class=\"stssm-pro-bold\">Login Security <span class=\"stssm-pro-bold stssm-pro-underline\">Pro</span>"
+msgstr ""
+
+#: admin/inc/partials/pro.php:18
+msgid "Limit Login Attempts"
+msgstr ""
+
+#: admin/inc/partials/pro.php:19
+msgid "Login-Logout Redirect"
+msgstr ""
+
+#: admin/inc/partials/pro.php:20
+msgid "Role-Based Redirection"
+msgstr ""
+
+#: admin/inc/partials/pro.php:21
+msgid "Recent Login History"
+msgstr ""
+
+#: admin/inc/partials/pro.php:24
+msgid "Login History by Username"
+msgstr ""
+
+#: admin/inc/partials/pro.php:25
+msgid "WooCommerce Login / Register"
+msgstr ""
+
+#: admin/inc/partials/pro.php:26
+msgid "WooCommerce Checkout"
+msgstr ""
+
+#: admin/inc/partials/pro.php:27
+msgid "Advanced Security"
+msgstr ""
+
+#: admin/inc/partials/pro.php:32
+msgid "Buy Now"
+msgstr ""
+
+#: admin/inc/partials/pro.php:33
+msgid "Learn More"
+msgstr ""
+
+#: admin/inc/setting/index.php:7
+msgid "Social Icons"
+msgstr ""
+
+#: admin/inc/setting/index.php:8
+msgid "Icons Design"
+msgstr ""
+
+#: admin/inc/setting/index.php:9
+msgid "Reset"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:22
+#: admin/inc/setting/tabs/icons-design.php:26
+msgid "Content Icons Shape"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:51
+msgid "Content Icons Size"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:55
+msgid "Before/After Content Icons Size"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:57
+#: admin/inc/setting/tabs/icons-design.php:114
+msgid "Width"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:60
+#: admin/inc/setting/tabs/icons-design.php:117
+msgid "Height"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:63
+msgid "Marign Left"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:66
+msgid "Marign Right"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:69
+#: admin/inc/setting/tabs/icons-design.php:120
+msgid "Marign Top"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:72
+#: admin/inc/setting/tabs/icons-design.php:123
+msgid "Marign Bottom"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:79
+#: admin/inc/setting/tabs/icons-design.php:83
+msgid "Sticky Icons Shape"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:108
+#: admin/inc/setting/tabs/icons-design.php:112
+msgid "Sticky Icons Size"
+msgstr ""
+
+#: admin/inc/setting/tabs/icons-design.php:132
+#: admin/inc/setting/tabs/social-icons.php:237
+msgid "Save Changes"
+msgstr ""
+
+#: admin/inc/setting/tabs/reset.php:13
+msgid "This will reset the plugin to its default state and clear all data created by this plugin."
+msgstr ""
+
+#: admin/inc/setting/tabs/reset.php:16
+msgid "Are you sure to reset the plugin to its default state?"
+msgstr ""
+
+#: admin/inc/setting/tabs/reset.php:16
+msgid "Reset Plugin"
+msgstr ""
+
+#: admin/inc/setting/tabs/social-icons.php:32
+#: admin/inc/setting/tabs/social-icons.php:36
+msgid "Social Share Icons"
+msgstr ""
+
+#: admin/inc/setting/tabs/social-icons.php:70
+#: admin/inc/setting/tabs/social-icons.php:74
+msgid "Sticky Icons Placement"
+msgstr ""
+
+#: admin/inc/setting/tabs/social-icons.php:99
+#: admin/inc/setting/tabs/social-icons.php:103
+msgid "Placement on Pages"
+msgstr ""
+
+#: admin/inc/setting/tabs/social-icons.php:128
+#: admin/inc/setting/tabs/social-icons.php:132
+msgid "Placement on Posts"
+msgstr ""
+
+#: admin/inc/setting/tabs/social-icons.php:157
+#: admin/inc/setting/tabs/social-icons.php:161
+msgid "Sticky Icons (Side)"
+msgstr ""
+
+#: admin/inc/setting/tabs/social-icons.php:183
+#: admin/inc/setting/tabs/social-icons.php:187
+msgid "Sticky Icons (All)"
+msgstr ""
+
+#: admin/inc/setting/tabs/social-icons.php:209
+#: admin/inc/setting/tabs/social-icons.php:213
+msgid "Content Icons (Post, Page)"
+msgstr ""
+
+#: admin/inc/setting/tabs/social-icons.php:245
+#: admin/inc/setting/tabs/social-icons.php:249
+msgid "Like this plugin? Leave a Review."
+msgstr ""
+
+#: includes/class-stssm-helper.php:7
+msgid "Enable Sticky Icons"
+msgstr ""
+
+#: includes/class-stssm-helper.php:8
+msgid "Enable on all Pages"
+msgstr ""
+
+#: includes/class-stssm-helper.php:9
+msgid "Enable on all Posts"
+msgstr ""
+
+#: includes/class-stssm-helper.php:15
+msgid "Left"
+msgstr ""
+
+#: includes/class-stssm-helper.php:16
+msgid "Right"
+msgstr ""
+
+#: includes/class-stssm-helper.php:22
+#: includes/class-stssm-helper.php:29
+msgid "Before Content"
+msgstr ""
+
+#: includes/class-stssm-helper.php:23
+#: includes/class-stssm-helper.php:30
+msgid "After Content"
+msgstr ""
+
+#: includes/class-stssm-helper.php:36
+msgid "Square"
+msgstr ""
+
+#: includes/class-stssm-helper.php:37
+msgid "Circle"
+msgstr ""
+
+#: includes/class-stssm-helper.php:47
+msgid "Share on Facebook"
+msgstr ""
+
+#: includes/class-stssm-helper.php:51
+msgid "Share on Twitter"
+msgstr ""
+
+#: includes/class-stssm-helper.php:55
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: includes/class-stssm-helper.php:59
+msgid "Share on Pinterest"
+msgstr ""
+
+#: includes/class-stssm-helper.php:63
+msgid "Share on Reddit"
+msgstr ""
+
+#: includes/class-stssm-helper.php:67
+msgid "Share on Tumblr"
+msgstr ""
+
+#: includes/class-stssm-helper.php:71
+msgid "Share on X (Twitter)"
+msgstr ""
+
+#: includes/class-stssm-helper.php:75
+msgid "Share on Blogger"
+msgstr ""
+
+#: includes/class-stssm-helper.php:79
+msgid "Share on Evernote"
+msgstr ""
+
+#: includes/class-stssm-helper.php:83
+msgid "Share on Flipboard"
+msgstr ""
+
+#: includes/class-stssm-helper.php:87
+msgid "Share on Pocket"
+msgstr ""
+
+#: includes/class-stssm-helper.php:91
+msgid "Share on WordPress.com"
+msgstr ""
+
+#: includes/class-stssm-helper.php:95
+msgid "Share on Line"
+msgstr ""
+
+#: includes/class-stssm-helper.php:99
+msgid "Share on Whatsapp"
+msgstr ""
+
+#: includes/class-stssm-helper.php:103
+msgid "Share via Email"
+msgstr ""
+
+#: public/inc/class-stssm-share.php:192
+msgid "Toggle social share buttons"
+msgstr ""
+
+#: public/inc/class-stssm-share.php:193
+msgid "Toggle all social share buttons - modal"
+msgstr ""
+
+#: public/inc/class-stssm-share.php:194
+msgid "Close modal - all social share buttons"
+msgstr ""
