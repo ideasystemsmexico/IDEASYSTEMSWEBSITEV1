@@ -16,3 +16,10 @@ jobs:
         password: ${{ secrets.ftp_password }}
         protocol: ftps
         port: 21
+        log-level: verbose
+        exclude: |
+          **/.git*
+          **/node_modules/*
+          **/.github/*
+        # Habilitar sync para que solo cargue archivos modificados
+        sync: true
